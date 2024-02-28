@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+/* Home component */
+.Home {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.posts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Navbar Component */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 10px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar ul li button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar ul li button:hover {
+  text-decoration: underline;
+}
+
+.register {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 6%;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.register h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: #0056b3;
+}
+
+.register button:active {
+  background-color: #003366;
+}
+
+.create-post {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: lightblue; /* Change the background color here */
+}
+.create-post h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-post form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post input,
+.create-post textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #007bff; /* Change the border color */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Change the background color */
+  color: #333; /* Change the text color */
+}
+.create-post input:focus {
+  border-color: #0056b3; /* Change the border color on focus */
+}
+
+.create-post textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.create-post button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 95%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-post button:hover {
+  background-color: #0056b3;
+}
+
+.create-post button:active {
+  background-color: #003366;
+}

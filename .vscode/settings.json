@@ -1,0 +1,9 @@
+{
+     "chatgpt.authenticationType": "Google Authentication",
+     "chatgpt.gpt3.apiKey": "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",
+     "chatgpt.gpt3.maxTokens": 2048,
+     "chatgpt.gpt3.temperature": 1,
+     "chatgptplus.apiKey": "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",
+     "chatgpt-ai.apiKey": "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",
+     "chatgpt-ai.timeoutLength": 1
+}
