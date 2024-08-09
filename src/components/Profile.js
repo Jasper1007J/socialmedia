@@ -4,17 +4,17 @@ import { connect } from 'react-redux';
 const Profile = ({ isAuthenticated, user }) => {
   return (
     <div>
-      {isAuthenticated ? (
+      {/* {isAuthenticated ? ( */}
         <div>
           <h2>Profile</h2>
           <p>Name: {user.name}</p>
           <p>Email: {user.email}</p>
           {/* Display additional user information */}
         </div>
-      ) : (
+      {/* ) : (
         <p>Please log in to view your profile.</p>
         
-      )}
+      )} */}
     </div>
   );
 };

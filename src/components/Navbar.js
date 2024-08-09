@@ -6,7 +6,7 @@ const Navbar = ({ isAuthenticated, logout }) => {
     <nav className='navbar'>
       <ul>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/profile">Profile</NavLink></li>
+        {/* <li><NavLink to="/profile">Profile</NavLink></li> */}
         {/* <li><NavLink to="/post">Create Post</NavLink></li> */}
         {!isAuthenticated ? (
           <>

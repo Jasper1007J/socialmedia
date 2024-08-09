@@ -73,7 +73,7 @@
   text-decoration: underline;
 }
 
-.register {
+.login, .register {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -83,17 +83,17 @@
   background-color: #f9f9f9;
 }
 
-.register h2 {
+.login h2, .register h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.register form {
+.login form,.register form {
   display: flex;
   flex-direction: column;
 }
 
-.register input {
+.login input, .register input {
   width: 90%;
   padding: 10px;
   margin-bottom: 15px;
@@ -101,7 +101,7 @@
   border-radius: 5px;
 }
 
-.register button {
+.login button, .register button {
   padding: 10px;
   background-color: #007bff;
   color: white;
@@ -110,11 +110,11 @@
   cursor: pointer;
 }
 
-.register button:hover {
+.login button:hover, .register button:hover {
   background-color: #0056b3;
 }
 
-.register button:active {
+.login button:active, .register button:active {
   background-color: #003366;
 }
 

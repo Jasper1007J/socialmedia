@@ -6,7 +6,6 @@ import Login from './components/Login';
 import Navbar from './components/Navbar';
 import PostForm from './components/PostForm';
 import PrivateRoute from './components/PrivateRoute';
-import Profile from './components/Profile';
 import Register from './components/Register';
 
 const App = () => {
@@ -20,7 +19,7 @@ const App = () => {
               <Route exact path="/" element={<Home/>} />
               <Route  path="/login" element={<Login/>} />
               <Route  path="/register" element={<Register/>} />
-              <Route  path="/profile" element={<PrivateRoute/>} Component={Profile} />
+              {/* <Route  path="/profile" element={<PrivateRoute/>} Component={Profile} /> */}
               <Route  path="/post" element={<PrivateRoute/>} Component={PostForm} />
             </Routes>
           </div>
